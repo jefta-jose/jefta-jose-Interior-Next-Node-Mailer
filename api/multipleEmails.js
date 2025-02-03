@@ -1,4 +1,5 @@
 import nodemailer from 'nodemailer';
+
 const allowCors = fn => async (req, res) => {
     res.setHeader('Access-Control-Allow-Credentials', true);
     res.setHeader('Access-Control-Allow-Origin', '*');
